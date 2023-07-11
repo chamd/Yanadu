@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dic {
+    /* 도감 */
+}
+
+.dicname {
+    /* 도감 이름 */
+}
+
+#dics {
+    /* dicsel이 있는 박스 */
+}
+
+.dicsel {
+    /* 도감에 있는 원소 */
+}
+
+.table {
+    /* 기본 사원소가 있는 테이블 */
+}
+
+.element {
+    /* 기본 사원소 */
+}
+
+.elements {
+    /* 새로 생성된 원소 */
+}
+
+.draggable {
+    position: absolute;
+}
+
+.earth {
+    /* 각각의 원소의 위치 */
+}
+
+.water {
+    /* 각각의 원소의 위치 */
+}
+
+.fire {
+    /* 각각의 원소의 위치 */
+}
+
+.air {
+    /* 각각의 원소의 위치 */
+}
+
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
