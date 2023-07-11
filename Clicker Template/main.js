@@ -4,7 +4,7 @@
 // 현재 도구 변수
 // 일꾼 반복 시간 변수
 // 피버 시간 변수
-let nowFeverMain = 0;
+// 피버 퍼센트 변수
 
 function addMoney() {
     // 돈 증가 함수
