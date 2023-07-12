@@ -1,0 +1,86 @@
+<html>
+    <div>test</div> <!-- 가장 많이 쓰이는 박스 태그 div -->
+    <div id="testId">id</div> <!-- 단 하나만 할당 가능한 id -->
+    <div class="testClass">class</div> <!-- 여러개를 묶을 수 있는 class -->
+    <div onclick="testFunction()">onclick</div> <!-- 클릭했을 때 js의 함수를 실행할 수 있는 onclick -->
+    <button>test</button> <!-- 버튼 태그 button -->
+    <img src="test.png" alt=""> <!-- 이미지 태그 img -->
+    <a href="www.naver.com">test</a> <!-- 클릭 시 링크로 이동하는 태그 a -->
+</html>
+
+<style>
+    * { /* css 셀렉터 */
+        position: absolute; /* 절대 위치 */
+        height: 100px; /* 세로(높이) */
+        width: 100px; /* 가로(너비) */
+        background-color: red; /* 배경 색 */
+        top: 100px; /* 위로 부터 이동 */
+        left: calc(100% - 100px); /* 왼쪽으로 부터 이동, %와 px의 연산 calc*/
+        font-size: 100px; /* 글자 크기 */
+        text-align: center; /* 글자 정렬 */
+        line-height: 100px; /* 글자 높이 */
+        border-radius: 100px; /* 모서리 둥글기 */
+        transition: 1s; /* 애니메이션 속도 */
+        display: block; /* 디스플레이 */
+        overflow: scroll; /* 스크롤 */
+        margin: 100px; /* 여백 */
+    }
+</style>
+
+<script>
+    var test1 = 1; // 재정의 가능하고 바꿀 수 있는 변수
+    let test2 = 2; // 재정의 불가능하고 바꿀 수 있는 변수
+    const test3 = 3; // 재정의 불가느아고 바꿀 수 없는 변수
+
+    let arr1 = [1, 2, 3] // 배열
+    let obj1 = { // 객체(key: value)
+        a: { // 객체 속 객체
+            a: 1,
+            b: 2,
+            c: 3
+        },
+        b: 2,
+        c: 3
+    }
+
+    console.log(arr1[0]); // 배열 속 요소 콘솔에 로그 띄우기
+    console.log(obj1.a.b); // 객체 속 요소 콘솔에 로그 띄우기 방법1
+    console.log(obj1['a']['b']); // 객체 속 요소 콘솔에 로그 띄우기 방법2
+
+    arr1.push(4); // 배열에 값 넣기
+
+    document.getElementById('test').innerHTML = `test${test}`; // DOM으로 innerHTML 사용해서 글자 변경, ``: 문자열 속에서 변수 사용
+    document.getElementById('test').style.display = 'block'; // DOM으로 stle 사용해서 css 변경
+
+    if (a > 1 && b < 1 || c == 1) { // 조건문
+
+    } else if (b == 2) {
+
+    } else {
+
+    }
+
+    for (let i = 0; i < array.length; i++) { // 반복문 사용: array 길이만큼 반복, 반복할 때마다 i 1씩 올리가
+        console.log(array[i]); // array의 i번째 요소 콘솔에 로그 띄우기
+    }
+
+    setInterval(() => { // 100ms(0.1초)마다 반복하기
+
+    }, 100);
+
+    function test(n) { // test라는 함수 정의, n이라는 매개 변수
+        return n + 1; // n + 1 반환하기
+    }
+
+    test(3); // 매개변수 사용해서 함수 요청
+
+    alert(); // 화면에 팝업창 띄우기
+
+    let testE = document.createElement('div'); // HTML 태그 만들기
+    testE.classList.add('testclass'); // 만든 태그에 class 부여하기
+
+    Math.sqrt(); // 수학연산(제곱근) 사용하기
+    Math.floor(); // 수학연산(내림) 사용하기
+
+
+</script>
